@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Avançado</title>
+</head>
+<body>
+
+    <form action="url" method="post" target="_blank">  
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            Nome: <input type="text" >
+            Sobrenome: <input type="text">
+            Nascimento: <input type="date" >
+            RG: <input type="text">
+            CPF: <input type="text" size="15" >-<input type="text" size="5">
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados de endereço</legend>
+
+            Bairro: <input type="text" >
+
+            Estado: <select name="Estado">
+            <option  selected>Rio De Janeiro</option>
+            <option >São Paulo</option>
+            <option >Santa Catarina</option>
+            </select>
+
+            Cidade: <input type="text">
+            Numero: <input type="text">
+            CEP: <input type="text" size="15" >-<input type="text" size="5">
+
+        </fieldset>
+
+        
+        <fieldset>
+            <legend>Dados de Login</legend>
+
+            <label for="email">E-mail</label>
+                <input id="email" type="email">
+
+               <label for="Perfil">Imagem de perfil</label> <input id="Perfil" type="file" accept="image/png,image/jpg">
+
+                Usuario: <input type="password">
+               Senha: <input type="password" >
+               <br>
+               Confirme sua senha:<input type="password">
+
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Pesquisa de Interesse</legend>
+            Você deseja trabalhar com web master?
+            <br>
+            sim<input value="sim" name="option" type="radio">
+            <br>
+            não<input value="Não" name="option" type="radio">
+            <br>
+            Talvez<input value="Talvez" name="option" type="radio">
+            <br>
+            Quem sabe<input value="Quem sabe" name="option" type="radio">
+
+            <br> <br>
+            O que você deseja aprender? <br>
+            HTML: <input type="radio" name="Conteudo">
+            <br>
+            CSS: <input type="radio" name="Conteudo">
+            <br>
+            JavaScript:<input type="radio" name="Conteudo">
+            <br>
+            Django: <input type="radio" name="Conteudo">
+            <br>
+            <br>
+           
+            <textarea placeholder="Deixe um Comentario" id="" cols="30" rows="10" ></textarea>
+        </fieldset>
+
+        
+        <BUTton type="submit">Enviar</BUTton>
+        <button type="reset">Limpar</button>
+
+
+
+    </form>
+    
+</body>
+</html>

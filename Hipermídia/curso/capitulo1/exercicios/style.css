@@ -1,0 +1,17 @@
+#h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+#main{
+ background-image:url(https://streamie.com.br/wp-content/uploads/2018/03/img-shaco-league-of-legends.png);
+
+}
+
+article{
+    background-color: blue;
+}
+
+article > p{
+    background-color: aquamarine;
+    text-align: center;
+}

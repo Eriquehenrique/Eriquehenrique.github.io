@@ -1,0 +1,30 @@
+@charset "uitf-8";
+
+*{
+    margin:0px;
+    padding:0px;  
+}
+
+ul{
+
+  
+    padding:10px;
+    margin:5px;
+}
+
+li{
+text-align: center;
+display:block;
+width: 100px;
+height: 50px;
+background-color:lightgray;
+}
+
+a{
+
+   text-decoration: none;
+}
+
+a:hover{
+    background-image:url(imagens/Sprite_g\ \(1\).jpg);  
+}

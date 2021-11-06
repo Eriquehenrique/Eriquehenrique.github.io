@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    margin:0px 50px 0px 40px;
+}
+.content_header{
+
+display: flex;
+justify-content: space-between;
+
+}
+
+.nav-bar{
+    padding: 20px;
+}
+
+
+.content_search{
+
+    margin-left: 70px;
+
+}
+
+.content_button{
+  
+    margin:40px;
+    align-items: center;
+
+   
+}
+#banner1{
+    width:20vw;
+    height: auto;
+}
+#banner2{
+    width:15vw;
+    height:200px;
+    float: left;
+    margin: 2px;
+    padding: 2px;
+}
+
+
+li{
+   margin: 20px;
+    display:inline;
+
+    
+}
+
+
+main{
+   display: flex;
+   margin: auto;
+   height: auto;
+}
+.content_left{
+  float: left;
+  width: 25vw;
+
+}
+.socorro{
+    display: block;
+    width: 150px;
+    padding: 10px;
+    margin: 3px;
+}
+.content_center{
+   
+    width:100vw;
+   float: left;
+   
+    
+
+}
+.content_center1{
+    margin: 10px;
+
+}
+
+#left_footer{
+    display: flex;
+    float: left;
+}
+#rigth_footer{
+    float: right;
+    display: flex;
+}
+
+footer{
+
+    width: 90vw;
+}

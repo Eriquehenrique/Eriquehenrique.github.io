@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+   
+    <title>Document</title>
+   <script type="text/javascript">
+        function aluguel(){
+
+        var retirada, entrega, fretamento
+
+       entrega =document.getElementById('Entrega').value
+
+       retirada = document.getElementById('Retirada').value
+       
+        if(entrega!=retirada){
+            fretamento = parseFloat(document.getElementById('carro').value)+300
+            alert("Cidade diferente,vou te cobrar "+ fretamento)
+        }else{
+            fretamento = parseFloat(document.getElementById('carro').value)
+            alert(fretamento)
+        }
+
+        }   
+
+
+
+   </script>
+</head>
+<body>
+    <form action="">
+          
+            Nome<input type="text"> 
+            <br>
+            telefone<input type="text">
+            <br>
+            
+            <label for="Entrega">Cidade de Entrega</label>
+            <select name="" id="Entrega">
+                <option value="Campos">Campos </option>
+                <option value="Rio de Janeiro">Rio de Janeiro </option>
+                <option value="Vitória ">Vitória</option>
+            </select>
+            <br>
+                    <label for="retirada">Cidade de retirada</label>
+
+                    <select name="" id="Retirada">
+                        <option value="Campos">Campos</option>
+                        <option value="Rio de Janeiro">Rio de Janeiro</option>
+                        <option value="Vitória ">Vitória</option>
+                    </select>
+                    <br>
+            
+                    <label for="entrega">Data de retirada</label>
+                    <input type="date" name="entrega" id="entrega">
+                
+                <br>
+               
+                    <label for="devol">Data de devolução</label>
+                    <input type="date" name="devolução" id="entrega">
+                <br>
+            
+                <label for="carro">tipo de carro:</label>
+                    <select name="" id="carro">
+                        <option value="119">basico R$119,00</option>
+                        <option value="199">basico com ar R$199,00</option>
+                        <option value="299">Executivo - R$299,00</option>
+                    </select>
+
+                    <br>
+                <button type="submit" value="enviar" onclick="aluguel()">Enviar</button>
+     
+  
+    </form>
+   
+</body>
+</html>
